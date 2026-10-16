@@ -24,4 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "DRAGOS SEMINAR22"
 include(":app")
- 
+include(":app:modulul2")
