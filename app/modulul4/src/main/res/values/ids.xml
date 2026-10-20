@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvRezultat" type="id" />
+    <item name="btnAdauga" type="id" />
+    <item name="etDenumire" type="id" />
+    <item name="etPret" type="id" />
+    <item name="cbBluetooth" type="id" />
+    <item name="rgTip" type="id" />
+    <item name="rbBoxa" type="id" />
+    <item name="rbCasti" type="id" />
+    <item name="spMarca" type="id" />
+    <item name="ratingBar" type="id" />
+    <item name="swGarantie" type="id" />
+    <item name="btnSalveaza" type="id" />
+</resources>

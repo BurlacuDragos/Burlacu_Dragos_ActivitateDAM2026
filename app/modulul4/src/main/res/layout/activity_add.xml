@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adăugare Dispozitiv Audio"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Denumire Dispozitiv Audio:" />
+
+        <EditText
+            android:id="@+id/etDenumire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ex: Căști Over-Ear"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preț (RON):"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etPret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ex: 299.99"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <CheckBox
+            android:id="@+id/cbBluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conexiune Bluetooth"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tip Dispozitiv:"
+            android:layout_marginTop="12dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbCasti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:minHeight="48dp"
+                android:text="Căști" />
+
+            <RadioButton
+                android:id="@+id/rbBoxa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boxă Portabilă" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marcă:"
+            android:layout_marginTop="12dp"/>
+
+        <Spinner
+            android:id="@+id/spMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating calitate:"
+            android:layout_marginTop="12dp"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swGarantie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Include garanție extinsă"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnSalveaza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvează Dispozitiv Audio"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

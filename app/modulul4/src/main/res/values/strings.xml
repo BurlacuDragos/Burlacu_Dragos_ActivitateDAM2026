@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Modulul3</string>
+    <string name="Hello_World" />
+    <string name="este_zi" />
+    <string name="exemplu_Xen" />
+    <string name="exemplu_Dragos" />
+    <string name="denumire_dispozitiv_audio">Denumire Dispozitiv Audio:</string>
+</resources>
