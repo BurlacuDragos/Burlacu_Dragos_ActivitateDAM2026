@@ -1,6 +1,5 @@
 package com.example.modulul32;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -11,8 +10,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RatingBar;
 import android.widget.Spinner;
-import android.widget.Switch;
 import androidx.appcompat.app.AppCompatActivity;
+import com.google.android.material.switchmaterial.SwitchMaterial;
 
 public class AddActivity extends AppCompatActivity {
 
@@ -21,7 +20,7 @@ public class AddActivity extends AppCompatActivity {
     private RadioGroup rgTip;
     private Spinner spMarca;
     private RatingBar ratingBar;
-    private Switch swGarantie;
+    private SwitchMaterial swGarantie;
     private Button btnSalveaza;
 
     @Override

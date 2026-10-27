@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvRezultat" type="id" />
+    <item name="btnAdauga" type="id" />
+    <item name="btnAfiseazaLista" type="id" />
+    <item name="listViewDispozitive" type="id" />
+</resources>
