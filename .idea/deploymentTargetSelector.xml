@@ -30,6 +30,17 @@
       </SelectionState>
       <SelectionState runConfigName="app.modulul5">
         <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2026-11-03T11:39:53.144924800Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Windows\.android\avd\Medium_Phone.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="app.modulul4">
+        <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2026-10-16T15:28:39.685300700Z">
           <Target type="DEFAULT_BOOT">
             <handle>
@@ -39,9 +50,9 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="app.modulul4">
+      <SelectionState runConfigName="app.modulul6">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2026-10-16T15:28:39.685300700Z">
+        <DropdownSelection timestamp="2026-11-03T12:20:32.087756500Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Windows\.android\avd\Pixel_4.avd" />
