@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etDenumire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Denumire dispozitiv"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etPret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Preț (RON)"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <CheckBox
+            android:id="@+id/cbBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conexiune Bluetooth" />
+
+        <CheckBox
+            android:id="@+id/cbGarantie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are garanție" />
+
+        <RadioGroup
+            android:id="@+id/rgTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbCasti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Căști" />
+
+            <RadioButton
+                android:id="@+id/rbBoxa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boxă" />
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spinnerMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minHeight="48dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:stepSize="0.5" />
+
+        <Button
+            android:id="@+id/btnSalveaza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Salvează" />
+
+    </LinearLayout>
+</ScrollView>
